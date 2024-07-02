@@ -60,8 +60,8 @@
 }
 .home-button{
     padding-left: 100px;
-    display: flex;
-    gap: 100px;
+    display: inline-flex;
+    gap: 150px;
     padding-top: 60px;
 }
 .home-btn{
@@ -102,3 +102,158 @@
     margin-bottom: 20px;
     margin-top: -30px;
 }
+
+/* Shop */
+
+.shop{
+    margin-top: 20px;
+}
+#shopnow{
+    text-align: center;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+  
+  .listing-section {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    border-bottom: 0.01em solid #dddbdb;
+  }
+  
+  .product {
+    float: left;
+    width: 22.5%;
+    border-radius: 2%;
+    margin: 1%;
+  }
+  
+  .product:hover {
+    box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);  
+    -moz-box-shadow:    1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2% 2% 0 0;
+  }
+  
+  .pr-images {
+    height: 15em;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    border-radius: 2% 2% 0 0;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+  }
+  
+  .pr-images:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    border-radius: 2%;
+  }
+  
+  /* IMAGES */
+  #pr-image-1 {background-image: url("./Images/teabox.jpg");}
+  
+  #pr-image-2 {background-image: url("./Images/teabox2.jpg")}
+  
+  #pr-image-3 {background-image: url("./Images/teabox3.jpg")}
+  
+  #pr-image-4 {background-image: url("./Images/teabox4.jpg")}
+  
+  #pr-image-5 {background-image: url("./Images/teabag.jpg")}
+  
+  #pr-image-6 {background-image: url("./Images/teabag2.jpg")}
+  
+  #pr-image-7 {background-image: url("./Images/teabag3.jpg")}
+  
+  #pr-image-8 {background-image: url("./Images/teabag4.jpg")}
+
+  
+  .pr-box {
+    width: 100%;
+    float: left;
+    border: 0.01em solid #fff458;
+    border-radius: 0 0 2% 0%;
+    padding-top: 5px;
+  }
+  
+  .pr-box h2, h3 {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0.2em auto;
+  }
+  
+  .item, .price {
+    clear: left;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .price {
+    color: Grey;
+  }
+  
+  .description, label, button, input {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.2em auto;
+  }
+  
+  input:focus {
+    outline-color: #fdf;
+  }
+  
+  label {
+    width: 60%;
+  }
+  
+  .text-box input {
+    width: 15%;
+    clear: none;
+  }
+  
+  .text-box button {
+    margin-top: 1em;
+  }
+  
+  .pr-box button {
+    padding: 4%;
+    background-color: rgb(225, 196, 0);
+    border: none;
+    border-radius: 5%;
+    margin: 2%;
+    width: 96%;
+  }
+  
+  .pr-box button:hover {
+    bottom: 0.1em;
+  }
+  
+  .pr-box button:focus {
+    outline: 0;
+  }
+  
+  .pr-box button:active {
+    bottom: 0;
+    background-color: #fdf;
+  }
+  
+
+  
